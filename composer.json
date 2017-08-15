@@ -1,0 +1,25 @@
+{
+  "name": "sparklee/aliyun-openapi-php-sdk",
+  "type": "library",
+  "description": "阿里云开放API PHP版本SDK",
+  "keywords": ["aliyun-openapi-php-sdk"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Spark Lee",
+      "email": "liweijsj@163.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">5.3"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ],
+    "psr-0": {
+      "sparklee\\aliyun-openapi-php-sdk\\": "/"
+    }
+  }
+}
